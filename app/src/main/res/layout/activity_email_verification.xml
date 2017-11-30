@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#9E9E9E"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.hospitalmanagementsystem.EmailVerificationActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/heading"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#BDBDBD"
+        android:layout_height="wrap_content"
+        android:text="Verify email address"/>
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/text"
+        android:layout_below="@+id/heading"
+        android:layout_height="wrap_content"
+        android:text="Verification link will be sent to the registered email address"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Email"
+        android:id="@+id/tvUserEmail"
+        android:layout_below="@+id/text"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btResendEmail"
+        android:layout_marginTop="48dp"
+        android:textColor="#ffffff"
+        android:layout_centerInParent="true"
+        android:background="#F13A13"
+        android:text="Send Email"
+        android:layout_below="@+id/tvUserEmail"/>
+</RelativeLayout>

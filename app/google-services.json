@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "788998814695",
+    "firebase_url": "https://hospitalmanagementsystem-17f71.firebaseio.com",
+    "project_id": "hospitalmanagementsystem-17f71",
+    "storage_bucket": "hospitalmanagementsystem-17f71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788998814695:android:76e6c653da4ae124",
+        "android_client_info": {
+          "package_name": "com.example.android.hospitalmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788998814695-42jep7ebcpb9f915vs5p9kuolbp78h2a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.hospitalmanagementsystem",
+            "certificate_hash": "314844a38c4ceae7b65d2c96712a1d2544413bcd"
+          }
+        },
+        {
+          "client_id": "788998814695-1baoa1gllgm6c0jgphkhoel5vs3m2crm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.hospitalmanagementsystem",
+            "certificate_hash": "fa4d173afab97a331173d1c3b28e81a118584423"
+          }
+        },
+        {
+          "client_id": "788998814695-rc6log780756f86mlj2hfll6o7n9asvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsVVUyh_-bd7CKbV3M42Vg9b1DLvoCy8g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788998814695-rc6log780756f86mlj2hfll6o7n9asvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788998814695:android:3290f2d70d2e909d",
+        "android_client_info": {
+          "package_name": "com.example.android.hospitalforstudents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788998814695-smb8n2o0s1927d8sjmtkfh90k6ds8ad4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.hospitalforstudents",
+            "certificate_hash": "fa4d173afab97a331173d1c3b28e81a118584423"
+          }
+        },
+        {
+          "client_id": "788998814695-rc6log780756f86mlj2hfll6o7n9asvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsVVUyh_-bd7CKbV3M42Vg9b1DLvoCy8g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788998814695-rc6log780756f86mlj2hfll6o7n9asvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

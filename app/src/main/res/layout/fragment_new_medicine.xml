@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEBE9">
+
+<LinearLayout
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEBE9"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="0.2">
+
+        <Button
+            android:id="@+id/btReader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="30dp"
+            android:background="#BCAAA4"
+            android:text="Scan" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_weight="0.14"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvSelectedDateForNew"
+            android:layout_width="264dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:text="Date" />
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".17"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textInputLayout"
+        android:theme="@style/TextLabel">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etMedicineName"
+            android:layout_width="264dp"
+            android:paddingTop="8dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="Medicine Name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="8dp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".17"
+        android:layout_below="@+id/textInputLayout"
+        android:layout_marginTop="10dp"
+        android:theme="@style/TextLabel">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etMedicineQuantity"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="Medicine Quantity"
+            android:inputType="number"
+            android:maxLines="1"
+            android:paddingLeft="8dp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvErrorLargeQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".05"
+        android:layout_gravity="center_horizontal"
+        android:text="Too large"
+        android:textColor="@color/quantity1" />
+<LinearLayout
+    android:layout_marginTop="16dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="0dp"
+    android:layout_weight=".1">
+    <Spinner
+        android:id="@+id/sMedicineType"
+        android:layout_width="264dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/border"
+        android:hint="Medicine Type"
+        android:prompt="@string/spinner_title" />
+</LinearLayout>
+    <TextView
+        android:id="@+id/tvErrorEmptyField"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".05"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:text="Please fill details"
+        android:textColor="@color/quantity1" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight=".2">
+    <Button
+        android:id="@+id/btSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="8dp"
+        android:background="#BCAAA4"
+        android:text="Submit" />
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

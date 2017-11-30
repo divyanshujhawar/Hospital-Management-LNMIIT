@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\DELL\Desktop\mini project\mini project\HospitalManagementSystem\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\DELL\Desktop\mini project\mini project\HospitalManagementSystem\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_232752af39fdf1cb4671b2a3d199a1d09eeb1165\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DELL\Desktop\mini project\mini project\HospitalManagementSystem\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="678ddc871e9c2fc7244e8715e8e8f5a143bf63e8">
+        <dex dex="C:\Users\DELL\Desktop\mini project\mini project\HospitalManagementSystem\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9af2ade7ccb04aa1b651676380cdb7980fefc9f4\classes.dex" />
+    </item>
+
+</items>
